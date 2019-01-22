@@ -1,0 +1,82 @@
+@media only screen and (max-width: 480px){
+    header{
+        width: 100%;
+        height: 5em
+    }
+    .logo {
+        width:80%;
+    }
+    .menu{
+        width:100%;
+    }
+    .menu p{
+        font-size: 1em;
+        width: 300%;
+  
+    }
+    .form{
+        
+        width: 100%;
+        height: 35em;
+        display: block;
+    }
+    
+    
+    
+    .tituloForm {
+        padding: 1em;
+    }
+    .subTitulo{
+        font-size: 1em;
+        padding: 1em;
+    }
+    .img-economia{
+        width: 30%;
+       display: none;
+       
+    }
+    .radiousIdaEVolta{
+        width: 100%;
+        
+    }
+    .formulario .partida {
+        width: 100%;
+    }
+    .formulario  .destino{
+        width: 100%;
+    }
+    .formulario .idaEvolta{
+        width: 100%;
+    }
+    .formulario .pessoas{
+        width: 100%;
+    }
+    .formulario .pessoas .adulto{
+        padding-left: 0;
+        padding-right: 0;
+        width: 33%
+    }
+    .formulario .pessoas .crianças{
+        padding-left: 0;
+        padding-right: 0;
+        width: 33%
+    }
+    .formulario .pessoas .bebe{
+        padding-left: 0;
+        padding-right: 0;
+        width: 33%
+    }
+    .formulario .maisopcoes{
+        width: 100%;
+    }
+    .formulario .btn-submite{
+        width: 70%;
+        padding: 1px;
+        float: left
+     
+    }
+    .formulario .btn-submite input{
+        font-size: 15px;
+    }
+    
+}

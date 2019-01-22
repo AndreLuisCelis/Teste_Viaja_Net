@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Teste Viaja Net</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht = device-scale , initial-scale = 1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo-mobile.css">
+    <link rel="shortcut icon" href="img/índice.ico" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <div class="cebeçalho">
+           <a href="#" ><img class="logo" src="img/logo.svg;wa-prod647dd6c977ad3189.svg" alt="Logotipo"></a>
+        </div>
+        <span class="menu"><p>Motor de Busca ViajaNet</p></span>
+     </header>
+     <section>
+         <article class = "fundo">
+             <div class= "form">
+                 <span class = "tituloForm">Passagens Areas</span>
+                 <div class = "subTitulo">Encotre os melhores preços e boa viagem! 
+                     <img class="img-economia"src="img/economia.png" alt="economia">
+                 </div>
+                 <form class="formulario" action="https://www.viajanet.com.br/" method="POST">
+                     <div class="radiousIdaEVolta">
+                         <input type="radio" name="opc" value = "soIda">Só ida
+                         <input type="radio" name="opc" value = "IdaEVolta">Ida e Volta
+                         <input type="radio" name="opc" value = "variosDestinos">Varios Destinos<br>
+                     </div>
+
+                     <div class="partida">
+                         <label for="partida">Informe sua origem</label><br>
+                         <input type="text" name="partida" value="  São Paulo, Brasil - (SAO - Todos os Aeroportos)">
+                     </div>
+                     <div class="destino">
+                         <label for="destino">Selecione o Destino</label><br>
+                         <input list="destino" nome = "destino" placeholder="  Cidade ou Aeroporto">
+                         <datalist id ="destino">
+                            <option value=" Fortaleza Ceara">
+                            <option value=" São Paulo, Internacional De Guarulhos, Brasil - (GRU)">
+                            <option value=" São Paulo, Congonhas, Brasil - (CGH)">
+                            <option value=" São Paulo, Viracopos, Brasil - (VCP)">
+                             <option value=" Rio de Janeiro, Brasil - (RIO - Todos os Aeroportos)">
+                             <option value=" Rio de Janeiro, Galeão - Antônio Carlos Jobim, Brasil - (GIG)">
+                             <option value=" Rio de Janeiro, Santos Dumont, Brasil - (SDU)">
+                             <option value=" Belém, Belém - Júlio Cezar Ribeiro Internacional, Brasil (BEL)">
+                             <option value=" Salvador, Luis E. Magalhães, Brasil (SSA)">
+                             <option value=" Manaus, Eduardo Gomes Internacional, Brasil (MAO)">
+                        </datalist>
+                    </div>
+
+                    <div class="idaEvolta">
+                        <div class="ida">
+                           <label for="ida" >Data de Ida</label><br>
+                           <input type="date" name ="ida">
+                        </div>
+
+                        <div class="volta">
+                           <label for="volta" >Data de Volta</label><br>
+                           <input type="date" name ="volta">
+                        </div>
+
+                    </div>
+
+                    <div class="pessoas">
+                        <div class="adulto">
+                            <label for="adulto">Adulto</label><br>
+                            <select name="adulto">
+                                <option value="1 Adulto"> 1 Adulto</option>
+                                <option value="2 Adultos"> 2 Adultos</option>
+                                <option value="3 Adultos"> 3 Adultos</option>
+                                <option value="4 Adultos"> 4 Adultos</option>
+                                <option value="5 Adultos"> 5 Adultos</option>
+                                <option value="6 Adultos"> 6 Adultos</option>
+                                <option value="7 Adultos"> 7 Adultos</option>
+                                <option value="8 Adultos"> 8 Adultos</option>
+                                <option value="9 Adultos"> 9 Adultos</option>
+                                <option value="10 Adultos"> 10 Adultos</option>
+                            </select>
+                        </div>
+
+                        <div class="crianças">
+                                <label for="crianças">Criança</label><br>
+                                <select name="crianças" aria-placeholder="Cidade ou Aeroporto">
+                                    <option value="nenhuma"> Nenhuma </option>
+                                    <option value="1 Criança"> 1 Criança</option>
+                                    <option value="2 Crianças"> 2 Crianças</option>
+                                    <option value="3 Crianças"> 3 Crianças</option>
+                                    <option value="4 Crianças"> 4 Crianças</option>
+                                    <option value="5 Crianças"> 5 Crianças</option>
+                                    <option value="6 Crianças"> 6 Crianças</option>
+                                    <option value="7 Crianças"> 7 Crianças</option>
+                                    <option value="8 Crianças"> 8 Crianças</option>
+                                    <option value="9 Crianças"> 9 Crianças</option>
+                                    <option value="10 Crianças"> 10 Crianças</option>
+                                </select>
+                            </div>
+
+                            <div class="bebe">
+                                    <label for="bebe">Bebê</label><br>
+                                    <select name="bebe">
+                                        <option value="nenhum">Nenhum</option>
+                                        <option value="1 Bebê"> 1 Bebê</option>
+                                        <option value="2 Bebês"> 2 Bebês</option>
+                                        <option value="3 Bebês"> 3 Bebês</option>
+                                        <option value="4 Bebês"> 4 Bebês</option>
+                                        <option value="5 Bebês"> 5 Bebês</option>
+                                        <option value="6 Bebês"> 6 Bebês</option>
+                                        <option value="7 Bebês"> 7 Bebês</option>
+                                        <option value="8 Bebês"> 8 Bebês</option>
+                                        <option value="9 Bebês"> 9 Bebês</option>
+                                        <option value="10 Bebês"> 10 Bebês</option>
+                                    </select>
+                                </div>
+                     </div>
+
+                     <div class ="maisopcoes">
+                         <input type="checkbox" name="não sei as datas" value="não sei as datas">Não sei as Dats para a Viagem<br>
+                         <input type="checkbox" name="adicionar hotel" value="adicionar hotel">Adicionar Hotel<br>
+
+                     </div>
+
+                     <div class ="btn-submite">
+                         <input type="submit" value="    Pesquisar  ">
+                     </div>
+                 </form>
+             </div>
+         </article>
+     </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding:0; 
+  box-sizing: border-box;
+  font-family: verdana;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+}
+.cebeçalho {
+  float: left;
+  background: #fff;
+  margin:0.7% 45px
+  
+}
+.menu { 
+ display: inline-block;
+  margin:1.5% 5%;
+  font-family: verdana;
+  font-style:unset;
+  color:#333;
+ font-size: 14px;
+}
+section {
+  width: 100%;
+  
+  height:700px;
+  background-image: url("../img/Rio-motor.jpg") !important;/* é somente 2 pontos para definir a url .. */
+  background-repeat: no-repeat;
+  padding:4%;
+  
+} 
+.form {
+  width: 80%;
+  height: 400px;
+  background: rgba(1,100,191,.9);
+  margin: auto;
+  border-radius: 5px;
+}
+.tituloForm  {
+  width: 50%;
+ padding: 1.5em;
+  color: white;
+  background:#004987;
+  border-right: solid 1px;
+  border-top: solid 1px;
+  border-radius:  5px;
+ 
+}
+.subTitulo {
+  padding-top: 2em;
+  padding-left: 2em;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 
+}
+.subTitulo img{
+  float: right;
+  margin-right: 5%;
+  margin-top: -5%
+}
+.formulario {
+  color: white;
+  display: block;
+  padding: 1%;
+  font-size: 15px;
+  margin-left: 1em;
+}
+.formulario .radiousIdaEVolta{
+  padding: 1em;
+}
+.formulario .partida {
+  margin: auto;
+  width: 50%;
+  float:left
+}
+.formulario .destino{
+  margin:auto;
+  float:right;
+  width: 50%;
+}
+.formulario .idaEvolta{
+  width: 50%;
+  float: left;
+}
+.formulario .pessoas{
+  width: 50%;
+  float: right;
+}
+.formulario .partida input{
+  width: 95%;
+  height:3em;
+  border-radius:5px;
+  border: none;
+  margin: auto;
+}
+.formulario .destino input{
+ width: 95%;
+  height:3em;
+  border-radius:5px;
+  border: none;
+}
+.formulario .idaEvolta .ida {
+  float:left;
+  width: 50%;
+  padding: 0.5em;
+}
+.formulario .idaEvolta .volta {
+  float:right;
+  width: 50%;
+  padding: 0.5em;
+}
+.formulario .idaEvolta .ida input{
+  width: 95%;
+  height: 3em;
+  border-radius: 5px;
+  border:none;
+}
+.formulario .idaEvolta .volta input{
+  width: 95%;
+  height: 3em;
+  border-radius: 5px;
+  border:none;
+}
+.formulario .pessoas .adulto {
+  padding: 0.5em;
+  width: 30%;
+  float: left;
+}
+.formulario .pessoas .crianças {
+  padding: 0.5em;
+  width: 30%;
+  float:left;
+}
+.formulario .pessoas .bebe {
+  padding: 0.5em;
+  width: 30%;
+  float: left
+}
+.formulario .pessoas .adulto select{
+  width: 80%;
+  height: 3em;
+  border-radius: 5px;
+  color:white;
+  background:#004987;
+  border:none;
+}
+.formulario .pessoas .crianças select{
+  width: 80%;
+  height: 3em;
+  border-radius: 5px;
+  color:white;
+  background:#004987;
+  border:none;
+}
+.formulario .pessoas .bebe select {
+  width: 80%;
+  height: 3em;
+  border-radius: 5px;
+  color:white;
+  background:#004987;
+  border:none;
+}
+.formulario .maisopcoes {
+  width: 50%;
+  padding: 1em;
+  float:left;
+  
+}
+.formulario .btn-submite{
+  width: 50%;
+  padding: 2.5em;
+  float:right;
+}
+.formulario .btn-submite input{
+  float: right;
+  padding: 0.5em;
+  font-size: 20px;
+  border-radius: 5px;
+  border:none;
+  color:white;
+  background-color: #F8A422;
+}
